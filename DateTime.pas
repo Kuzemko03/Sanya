@@ -51,6 +51,12 @@ begin
   end;
 end;
 
+function IsYearOfApocalypse(y : integer): boolean;
+begin
+  Result := False;
+  if (y = 1992) or (y = 2005) or (y = 2011) then Result := True;
+end;
+
 begin
   
 end.
