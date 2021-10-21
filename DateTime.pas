@@ -43,6 +43,13 @@ begin
   
 end;
 
+function SeconsInHours(h1, h2: integer): integer;
+begin
+  for var i := h1 to h2 do
+  begin
+    Result+= 3600; 
+  end;
+end;
 
 begin
   
