@@ -27,6 +27,11 @@ begin
   end;
 end;
 
+function DaysInYear(y: integer) : boolean;
+begin
+  Result := IsLeapYear(y);
+end;
+
 
 begin
   
